@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Monument';
+}
+body{
+    background-color: #161616;
+    overflow: hidden;
+}
+.header{
+    position: absolute;
+    display: flex;
+    height: 70px;
+    width: 100%;
+    z-index: 10000;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: #6a1fe1;
+}
+.header .logo{
+    margin-left: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Neutral Face';
+
+}
+.header ul{
+  display: flex;
+  gap: 20px;
+    list-style: none;
+    text-align: right;
+    margin-right: 50px;
+}
+.header ul li .link{
+    font-size: 20px;
+    font-family: 'Neutral Face';
+    color: white;
+    font-weight: bold;
+    margin-top: 5px;
+    text-decoration: none;
+}
